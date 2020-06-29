@@ -5,7 +5,7 @@ Use the modulo operator, division, or a combination of both to take a 4 digit nu
 
 ## Solution
 
-thousands = 7482 / 1000
-hundreds = 7482 / 100 % 10
-tens = 7482 / 10 % 10
+thousands = 7482 / 1000  
+hundreds = 7482 / 100 % 10  
+tens = 7482 / 10 % 10  
 one = 7482 % 10
