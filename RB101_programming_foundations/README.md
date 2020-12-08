@@ -1,4 +1,4 @@
-## RB101 - Programming Foundations
+## RB101 - Programming Foundations (Ruby)
 
 [Programming Foundations](https://launchschool.com/curriculum/courses/79f19170) is the first course in the Programming & Back-end Development Phases of the [Launch School Curriculum](https://launchschool.com/courses).
 
