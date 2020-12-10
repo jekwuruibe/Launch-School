@@ -14,15 +14,14 @@ Kernel.puts("4: divide")
 
 operation = Kernel.gets().chomp()
 
-result = case operation
-when "1"
-  number1.to_i() + number2.to_i()
-when "2"
-  number1.to_i() - number2.to_i()
-when "3"
-  number1.to_i() * number2.to_i()
-else
-  number1.to_f() / number2.to_f()
+if operation == "1"
+  result = number1.to_i() + number2.to_i()
+elsif operation == "2"
+  result = number1.to_i() - number2.to_i()
+elsif operation == "3"
+  result = number1.to_i() * number2.to_i()
+elsif operation == "4"
+  result = number1.to_f() / number2.to_f()
 end
 
 Kernel.puts("The result of this operation is #{result}.")
